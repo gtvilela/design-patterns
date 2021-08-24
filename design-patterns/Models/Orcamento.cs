@@ -1,7 +1,7 @@
 ﻿using Design_Patterns.Impostos;
 using System.Collections.Generic;
 
-namespace Design_Patterns
+namespace Design_Patterns.Models
 {
     public class Orcamento
     {

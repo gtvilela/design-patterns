@@ -1,4 +1,5 @@
 ﻿using Design_Patterns.Interfaces.Investimentos;
+using Design_Patterns.Models;
 
 namespace Design_Patterns.Investimentos
 {

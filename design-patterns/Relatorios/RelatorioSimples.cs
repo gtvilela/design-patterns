@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Design_Patterns.Models;
+using System;
 using System.Collections.Generic;
 
 namespace Design_Patterns.Relatorios

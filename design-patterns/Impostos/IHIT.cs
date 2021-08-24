@@ -1,4 +1,5 @@
 ﻿using Design_Patterns.Impostos.Interfaces;
+using Design_Patterns.Models;
 using System.Collections.Generic;
 
 namespace Design_Patterns.Impostos

@@ -1,4 +1,6 @@
-﻿namespace Design_Patterns.Desconto
+﻿using Design_Patterns.Models;
+
+namespace Design_Patterns.Desconto
 {
     public interface Desconto
     {

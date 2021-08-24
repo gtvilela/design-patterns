@@ -1,4 +1,4 @@
-﻿namespace Design_Patterns
+﻿namespace Design_Patterns.Models
 {
     public enum Formato
     {

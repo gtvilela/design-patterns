@@ -1,12 +1,13 @@
-﻿using Design_Patterns.Reposta.Interfaces;
+﻿using Design_Patterns.Models;
+using Design_Patterns.Reposta.Interfaces;
 using System;
 
 namespace Design_Patterns.Reposta
 {
-    public class RespostaXml : Resposta
+    public class RespostaXml : IResposta
     {
-        public Resposta OutraResposta { get; set; }
-        public RespostaXml(Resposta outraResposta)
+        public IResposta OutraResposta { get; set; }
+        public RespostaXml(IResposta outraResposta)
         {
             OutraResposta = outraResposta;
         }

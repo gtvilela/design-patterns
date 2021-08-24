@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Design_Patterns
+namespace Design_Patterns.Models
 {
     public class Conta
     {

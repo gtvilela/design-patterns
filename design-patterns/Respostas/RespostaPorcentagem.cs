@@ -1,13 +1,14 @@
-﻿using Design_Patterns.Reposta.Interfaces;
+﻿using Design_Patterns.Models;
+using Design_Patterns.Reposta.Interfaces;
 using System;
 
 namespace Design_Patterns.Respostas
 {
-    public class RespostaPorcentagem : Resposta
+    public class RespostaPorcentagem : IResposta
     {
-        public Resposta OutraResposta { get; set; }
+        public IResposta OutraResposta { get; set; }
 
-        public RespostaPorcentagem(Resposta outraResposta)
+        public RespostaPorcentagem(IResposta outraResposta)
         {
             OutraResposta = outraResposta;
         }
